@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+    background-color: #c5fff87e;
+}
+
+.btn-head{
+    background-color: #7B66FF;
+}
+
+.btn-sec{
+    background-color: #96EFFF;
+}
+
+.hero-sec{
+    height: 330px;
+}
+.calendar{
+    height: 40px;
+    width: 40px;
+}
+
+.card-width{
+    width: 420px;
+}
+
+.flow-card{
+    width: 550px;
+}
+
+.flow-card-col{
+    background-color: rgba(199, 204, 235, 0.781);
+}
+
+.plan-card{
+    height: fit;
+    width: 420px;
+}
+
+.ques-col{
+    background-color: #96efffbf;
+}
+
+.footer-col{
+    background-color: rgba(60, 66, 254, 0.49);
+}
+
+.stickyht{
+    top: 730px;
+}

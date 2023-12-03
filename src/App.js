@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+
+import FeatureSec from './components/features/featureSec';
+import Footer from './components/footer/footer';
+import Footer2nd from './components/footer2nd.js/footer2nd';
+import HeroSec from './components/hero/hero';
+import './components/hero/hero.css'
+import FlowCollection from './components/marquee/flowCollection';
+import MoreFeatureSection from './components/more-features/moreFeatureSection';
+import Navbar from './components/navbar/navbar';
+import Plans from './components/plans/plans';
+import MainContainer from './components/questions/mainContainer';
+import Sticky from './components/sticky/sticky';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='background' >
+        <Navbar />
+        <Sticky />
+        <HeroSec />
+        <FeatureSec />
+        <MoreFeatureSection />
+        <FlowCollection />
+        <Plans />
+        <MainContainer />
+        <Footer2nd/>
+        <Footer/>
+      </div>
+    </>
   );
 }
 
